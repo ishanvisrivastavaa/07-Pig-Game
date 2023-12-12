@@ -77,7 +77,7 @@ btnRoll.addEventListener('click', function(){
     document.getElementById(`score--${actvivePlayer}`).textContent = scores[actvivePlayer];
 
     //2.check if the player score is >=100
-    if(scores[actvivePlayer]>=10){
+    if(scores[actvivePlayer]>=100){
         playing = false;
        //finish the game
        diceEl.classList.add('hidden');
